@@ -15,28 +15,28 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('           Murali Nutalapati'),
-  handle: chalk.white('gitmurali'),
-  shorthandle: chalk.white('murali'),
-  work: chalk.white('Fullstack dev') + chalk.green(' ⚡️'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('gotomurali'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~npmmurali'),
-  github: chalk.gray('https://github.com/') + chalk.green('gitmurali'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('gomurali'),
-  web: chalk.cyan('https://muraliprashanth.me'),
-  npx: chalk.red('npx') + ' ' + chalk.white('gomurali'),
-  labelWork: chalk.white.bold('    Work:'),
-  labelTwitter: chalk.white.bold(' Twitter:'),
-  labelnpm: chalk.white.bold('     npm:'),
-  labelGitHub: chalk.white.bold('  GitHub:'),
-  labelLinkedIn: chalk.white.bold('LinkedIn:'),
-  labelWeb: chalk.white.bold('     Web:'),
-  labelCard: chalk.white.bold('    Card:')
-}
+  name: chalk.white("          Murali Nutalapti"),
+  handle: "",
+  shorthandle: "",
+  work: chalk.white("Fullstack dev"),
+  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("gotomurali"),
+  npm: chalk.gray("https://npmjs.com/") + chalk.red("~npmmurali"),
+  github: chalk.gray("https://github.com/") + chalk.green("gitmurali"),
+  linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("gomurali"),
+  web: chalk.cyan("https://muraliprashanth.me"),
+  npx: chalk.red("npx") + " " + chalk.white("gomurali"),
+  labelWork: chalk.white.bold("    Work:"),
+  labelTwitter: chalk.white.bold(" Twitter:"),
+  labelnpm: chalk.white.bold("     npm:"),
+  labelGitHub: chalk.white.bold("  GitHub:"),
+  labelLinkedIn: chalk.white.bold("LinkedIn:"),
+  labelWeb: chalk.white.bold("     Web:"),
+  labelCard: chalk.white.bold("    Card:"),
+};
 
 // Actual strings we're going to output
-const newline = '\n'
-const heading = `${data.name} / ${data.handle} / ${data.shorthandle}`
+const newline = "\n";
+const heading = `${data.name}`;
 const working = `${data.labelWork}  ${data.work}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
