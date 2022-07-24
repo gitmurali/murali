@@ -1,6 +1,6 @@
 {
   "name": "gomurali",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A personal card for Murali Prasanth (@gitmurali)",
   "main": "/bin/card.js",
   "bin": {
